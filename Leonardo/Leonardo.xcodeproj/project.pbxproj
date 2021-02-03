@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A77715C522956E2300156784 /* MainMenuTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77715C422956E2300156784 /* MainMenuTabController.swift */; };
+		A77715C722958E9D00156784 /* BookTrainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77715C622958E9D00156784 /* BookTrainerViewController.swift */; };
+		A77715C9229593FF00156784 /* ServiceMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77715C8229593FF00156784 /* ServiceMenuNavigationController.swift */; };
+		A77715CB2295942900156784 /* InformationNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77715CA2295942900156784 /* InformationNavigationController.swift */; };
+		A77715CD2295973800156784 /* ServiceMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77715CC2295973800156784 /* ServiceMenuViewController.swift */; };
+		A77715CF2295974F00156784 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77715CE2295974F00156784 /* InformationViewController.swift */; };
+		A77715D12295C4C200156784 /* CancelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77715D02295C4C200156784 /* CancelViewController.swift */; };
+		A7A2C5BB2296A7CE008BF056 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C5BA2296A7CE008BF056 /* ChangePasswordViewController.swift */; };
+		A7A2C5BD2296B291008BF056 /* EditMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2C5BC2296B291008BF056 /* EditMenuViewController.swift */; };
+		AC2E0417229672D4006D41FA /* DeleteBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E0416229672D4006D41FA /* DeleteBookViewController.swift */; };
+		AC656D9522938D6A0099094E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC656D9422938D6A0099094E /* AppDelegate.swift */; };
+		AC656D9722938D6A0099094E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC656D9622938D6A0099094E /* ViewController.swift */; };
+		AC656D9A22938D6A0099094E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC656D9822938D6A0099094E /* Main.storyboard */; };
+		AC656D9D22938D6A0099094E /* Leonardo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC656D9B22938D6A0099094E /* Leonardo.xcdatamodeld */; };
+		AC656D9F22938D6D0099094E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC656D9E22938D6D0099094E /* Assets.xcassets */; };
+		AC656DA222938D6D0099094E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC656DA022938D6D0099094E /* LaunchScreen.storyboard */; };
+		AC656DAD22938D6D0099094E /* LeonardoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC656DAC22938D6D0099094E /* LeonardoTests.swift */; };
+		AC656DB822938D6E0099094E /* LeonardoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC656DB722938D6E0099094E /* LeonardoUITests.swift */; };
+		ACA6F15E2293C9D5009C19A7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6F15D2293C9D5009C19A7 /* RegisterViewController.swift */; };
+		ACA6F1602293D554009C19A7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6F15F2293D554009C19A7 /* LogInViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC656DA922938D6D0099094E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC656D8922938D6A0099094E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC656D9022938D6A0099094E;
+			remoteInfo = Leonardo;
+		};
+		AC656DB422938D6E0099094E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC656D8922938D6A0099094E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC656D9022938D6A0099094E;
+			remoteInfo = Leonardo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A77715C422956E2300156784 /* MainMenuTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTabController.swift; sourceTree = "<group>"; };
+		A77715C622958E9D00156784 /* BookTrainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTrainerViewController.swift; sourceTree = "<group>"; };
+		A77715C8229593FF00156784 /* ServiceMenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMenuNavigationController.swift; sourceTree = "<group>"; };
+		A77715CA2295942900156784 /* InformationNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationNavigationController.swift; sourceTree = "<group>"; };
+		A77715CC2295973800156784 /* ServiceMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMenuViewController.swift; sourceTree = "<group>"; };
+		A77715CE2295974F00156784 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		A77715D02295C4C200156784 /* CancelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelViewController.swift; sourceTree = "<group>"; };
+		A7A2C5BA2296A7CE008BF056 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		A7A2C5BC2296B291008BF056 /* EditMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuViewController.swift; sourceTree = "<group>"; };
+		AC2E0416229672D4006D41FA /* DeleteBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteBookViewController.swift; sourceTree = "<group>"; };
+		AC656D9122938D6A0099094E /* Leonardo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leonardo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC656D9422938D6A0099094E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC656D9622938D6A0099094E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC656D9922938D6A0099094E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC656D9C22938D6A0099094E /* Leonardo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Leonardo.xcdatamodel; sourceTree = "<group>"; };
+		AC656D9E22938D6D0099094E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC656DA122938D6D0099094E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC656DA322938D6D0099094E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC656DA822938D6D0099094E /* LeonardoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeonardoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC656DAC22938D6D0099094E /* LeonardoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeonardoTests.swift; sourceTree = "<group>"; };
+		AC656DAE22938D6D0099094E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC656DB322938D6E0099094E /* LeonardoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeonardoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC656DB722938D6E0099094E /* LeonardoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeonardoUITests.swift; sourceTree = "<group>"; };
+		AC656DB922938D6E0099094E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA6F15D2293C9D5009C19A7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		ACA6F15F2293D554009C19A7 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC656D8E22938D6A0099094E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC656DA522938D6D0099094E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC656DB022938D6E0099094E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC656D8822938D6A0099094E = {
+			isa = PBXGroup;
+			children = (
+				AC656D9322938D6A0099094E /* Leonardo */,
+				AC656DAB22938D6D0099094E /* LeonardoTests */,
+				AC656DB622938D6E0099094E /* LeonardoUITests */,
+				AC656D9222938D6A0099094E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC656D9222938D6A0099094E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC656D9122938D6A0099094E /* Leonardo.app */,
+				AC656DA822938D6D0099094E /* LeonardoTests.xctest */,
+				AC656DB322938D6E0099094E /* LeonardoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC656D9322938D6A0099094E /* Leonardo */ = {
+			isa = PBXGroup;
+			children = (
+				AC656D9422938D6A0099094E /* AppDelegate.swift */,
+				AC656D9622938D6A0099094E /* ViewController.swift */,
+				AC656D9822938D6A0099094E /* Main.storyboard */,
+				ACA6F15F2293D554009C19A7 /* LogInViewController.swift */,
+				ACA6F15D2293C9D5009C19A7 /* RegisterViewController.swift */,
+				A77715C622958E9D00156784 /* BookTrainerViewController.swift */,
+				AC656D9E22938D6D0099094E /* Assets.xcassets */,
+				AC656DA022938D6D0099094E /* LaunchScreen.storyboard */,
+				AC656DA322938D6D0099094E /* Info.plist */,
+				AC656D9B22938D6A0099094E /* Leonardo.xcdatamodeld */,
+				A77715C422956E2300156784 /* MainMenuTabController.swift */,
+				A77715C8229593FF00156784 /* ServiceMenuNavigationController.swift */,
+				A77715CA2295942900156784 /* InformationNavigationController.swift */,
+				A77715CC2295973800156784 /* ServiceMenuViewController.swift */,
+				A77715CE2295974F00156784 /* InformationViewController.swift */,
+				A77715D02295C4C200156784 /* CancelViewController.swift */,
+				AC2E0416229672D4006D41FA /* DeleteBookViewController.swift */,
+				A7A2C5BA2296A7CE008BF056 /* ChangePasswordViewController.swift */,
+				A7A2C5BC2296B291008BF056 /* EditMenuViewController.swift */,
+			);
+			path = Leonardo;
+			sourceTree = "<group>";
+		};
+		AC656DAB22938D6D0099094E /* LeonardoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC656DAC22938D6D0099094E /* LeonardoTests.swift */,
+				AC656DAE22938D6D0099094E /* Info.plist */,
+			);
+			path = LeonardoTests;
+			sourceTree = "<group>";
+		};
+		AC656DB622938D6E0099094E /* LeonardoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC656DB722938D6E0099094E /* LeonardoUITests.swift */,
+				AC656DB922938D6E0099094E /* Info.plist */,
+			);
+			path = LeonardoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC656D9022938D6A0099094E /* Leonardo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC656DBC22938D6E0099094E /* Build configuration list for PBXNativeTarget "Leonardo" */;
+			buildPhases = (
+				AC656D8D22938D6A0099094E /* Sources */,
+				AC656D8E22938D6A0099094E /* Frameworks */,
+				AC656D8F22938D6A0099094E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leonardo;
+			productName = Leonardo;
+			productReference = AC656D9122938D6A0099094E /* Leonardo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC656DA722938D6D0099094E /* LeonardoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC656DBF22938D6E0099094E /* Build configuration list for PBXNativeTarget "LeonardoTests" */;
+			buildPhases = (
+				AC656DA422938D6D0099094E /* Sources */,
+				AC656DA522938D6D0099094E /* Frameworks */,
+				AC656DA622938D6D0099094E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC656DAA22938D6D0099094E /* PBXTargetDependency */,
+			);
+			name = LeonardoTests;
+			productName = LeonardoTests;
+			productReference = AC656DA822938D6D0099094E /* LeonardoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC656DB222938D6E0099094E /* LeonardoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC656DC222938D6E0099094E /* Build configuration list for PBXNativeTarget "LeonardoUITests" */;
+			buildPhases = (
+				AC656DAF22938D6E0099094E /* Sources */,
+				AC656DB022938D6E0099094E /* Frameworks */,
+				AC656DB122938D6E0099094E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC656DB522938D6E0099094E /* PBXTargetDependency */,
+			);
+			name = LeonardoUITests;
+			productName = LeonardoUITests;
+			productReference = AC656DB322938D6E0099094E /* LeonardoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC656D8922938D6A0099094E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Guest User";
+				TargetAttributes = {
+					AC656D9022938D6A0099094E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AC656DA722938D6D0099094E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AC656D9022938D6A0099094E;
+					};
+					AC656DB222938D6E0099094E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AC656D9022938D6A0099094E;
+					};
+				};
+			};
+			buildConfigurationList = AC656D8C22938D6A0099094E /* Build configuration list for PBXProject "Leonardo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC656D8822938D6A0099094E;
+			productRefGroup = AC656D9222938D6A0099094E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC656D9022938D6A0099094E /* Leonardo */,
+				AC656DA722938D6D0099094E /* LeonardoTests */,
+				AC656DB222938D6E0099094E /* LeonardoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC656D8F22938D6A0099094E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC656DA222938D6D0099094E /* LaunchScreen.storyboard in Resources */,
+				AC656D9F22938D6D0099094E /* Assets.xcassets in Resources */,
+				AC656D9A22938D6A0099094E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC656DA622938D6D0099094E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC656DB122938D6E0099094E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC656D8D22938D6A0099094E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2E0417229672D4006D41FA /* DeleteBookViewController.swift in Sources */,
+				AC656D9722938D6A0099094E /* ViewController.swift in Sources */,
+				A77715CF2295974F00156784 /* InformationViewController.swift in Sources */,
+				A77715C722958E9D00156784 /* BookTrainerViewController.swift in Sources */,
+				A77715C9229593FF00156784 /* ServiceMenuNavigationController.swift in Sources */,
+				A77715C522956E2300156784 /* MainMenuTabController.swift in Sources */,
+				AC656D9D22938D6A0099094E /* Leonardo.xcdatamodeld in Sources */,
+				A77715CD2295973800156784 /* ServiceMenuViewController.swift in Sources */,
+				AC656D9522938D6A0099094E /* AppDelegate.swift in Sources */,
+				A77715CB2295942900156784 /* InformationNavigationController.swift in Sources */,
+				ACA6F1602293D554009C19A7 /* LogInViewController.swift in Sources */,
+				A77715D12295C4C200156784 /* CancelViewController.swift in Sources */,
+				ACA6F15E2293C9D5009C19A7 /* RegisterViewController.swift in Sources */,
+				A7A2C5BB2296A7CE008BF056 /* ChangePasswordViewController.swift in Sources */,
+				A7A2C5BD2296B291008BF056 /* EditMenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC656DA422938D6D0099094E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC656DAD22938D6D0099094E /* LeonardoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC656DAF22938D6E0099094E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC656DB822938D6E0099094E /* LeonardoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC656DAA22938D6D0099094E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC656D9022938D6A0099094E /* Leonardo */;
+			targetProxy = AC656DA922938D6D0099094E /* PBXContainerItemProxy */;
+		};
+		AC656DB522938D6E0099094E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC656D9022938D6A0099094E /* Leonardo */;
+			targetProxy = AC656DB422938D6E0099094E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC656D9822938D6A0099094E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC656D9922938D6A0099094E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC656DA022938D6D0099094E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC656DA122938D6D0099094E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC656DBA22938D6E0099094E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC656DBB22938D6E0099094E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC656DBD22938D6E0099094E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leonardo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LD.Leonardo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC656DBE22938D6E0099094E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leonardo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LD.Leonardo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC656DC022938D6E0099094E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeonardoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LD.LeonardoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leonardo.app/Leonardo";
+			};
+			name = Debug;
+		};
+		AC656DC122938D6E0099094E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeonardoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LD.LeonardoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leonardo.app/Leonardo";
+			};
+			name = Release;
+		};
+		AC656DC322938D6E0099094E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeonardoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LD.LeonardoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leonardo;
+			};
+			name = Debug;
+		};
+		AC656DC422938D6E0099094E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeonardoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LD.LeonardoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leonardo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC656D8C22938D6A0099094E /* Build configuration list for PBXProject "Leonardo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC656DBA22938D6E0099094E /* Debug */,
+				AC656DBB22938D6E0099094E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC656DBC22938D6E0099094E /* Build configuration list for PBXNativeTarget "Leonardo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC656DBD22938D6E0099094E /* Debug */,
+				AC656DBE22938D6E0099094E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC656DBF22938D6E0099094E /* Build configuration list for PBXNativeTarget "LeonardoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC656DC022938D6E0099094E /* Debug */,
+				AC656DC122938D6E0099094E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC656DC222938D6E0099094E /* Build configuration list for PBXNativeTarget "LeonardoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC656DC322938D6E0099094E /* Debug */,
+				AC656DC422938D6E0099094E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC656D9B22938D6A0099094E /* Leonardo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC656D9C22938D6A0099094E /* Leonardo.xcdatamodel */,
+			);
+			currentVersion = AC656D9C22938D6A0099094E /* Leonardo.xcdatamodel */;
+			path = Leonardo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC656D8922938D6A0099094E /* Project object */;
+}
